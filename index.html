@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="پورتفولیو شخصی تینا - مدل‌سازی، رندر، متریال و طراحی سه بعدی">
+
+    <title>تینا | 3D Artist Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets\3d.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     NAVBAR
+========================= -->
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <button class="menu-toggle" id="menuToggle" aria-label="باز کردن منو">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="hero" id="home">
+
+        <div class="profile-area">
+            <span class="extra-star">✦</span>
+
+            <div class="profile-decoration"></div>
+
+            <div class="profile-image">
+
+                <img
+                    src="assets/profile.jpg"
+                    alt="تصویر پروفایل">
+
+            </div>
+
+            <div class="profile-name">
+                <span>TINA GORJI •</span>
+            </div>
+            
+            <div class="profile-caption">
+                <span>3D ARTIST | PRODUCT VISUALIZATION • CGI</span>
+            </div>
+
+        </div>
+        <span class="extra-circle"></span>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MARQUEE
+========================= -->
+
+<section class="marquee">
+
+    <div class="marquee-track">
+
+        <span>3D MODELING</span>
+        <span>✦</span>
+        <span>TEXTURING</span>
+        <span>✦</span>
+        <span>LIGHTING</span>
+        <span>✦</span>
+        <span>RENDERING</span>
+        <span>✦</span>
+        <span>3D MODELING</span>
+        <span>✦</span>
+        <span>TEXTURING</span>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FEATURED WORK
+========================= -->
+
+<section class="work section" id="work">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-project-heading">
+                <h2>
+                    پروژه‌های
+                    <em>منتخب</em>
+                </h2>
+
+            </div>
+
+            <p>
+                مجموعه‌ای از پروژه‌هایی که بخشی از مسیر
+                من در مدل‌سازی، طراحی و رندر سه‌بعدی را نشان می‌دهند.
+            </p>
+
+        </div>
+
+
+        <!-- Filters -->
+
+        <div class="filters">
+
+            <button class="filter active" data-filter="all">
+                همه
+            </button>
+
+            <button class="filter" data-filter="product">
+                Product
+            </button>
+
+            <button class="filter" data-filter="environment">
+                Environment
+            </button>
+
+        </div>
+
+
+        <!-- Project Grid -->
+
+        <div class="project-grid">
+
+            <!-- Project 01 -->
+
+            <article class="project-card"
+                     data-category="product">
+
+                <div class="project-image">
+
+                    <img
+                        src="assets/thumbnail-project-01.png"
+                        alt="پروژه طراحی محصول">
+
+                    <div class="project-overlay">
+
+                        <span>01</span>
+
+                        <button
+                            class="view-project"
+                            data-title="LUXURY SKINCARE"
+                            data-category="Product Visualization / CGI"
+                            data-image="assets/project-01.png">
+
+                            مشاهده پروژه
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>LUXURY SKINCARE</h3>
+                        <p>Product Visualization / CGI</p>
+                        <p>Blender • Cycles</p>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 02 -->
+
+            <article class="project-card"
+                     data-category="product">
+
+                <div class="project-image">
+
+                    <img
+                        src="assets/thumbnail-project-02.png"
+                        alt="پروژه طراحی محصول">
+
+                    <div class="project-overlay">
+
+                        <span>02</span>
+
+                        <button
+                            class="view-project"
+                            data-title="Forgotten Temple"
+                            data-category="Environment Art"
+                            data-image="assets/project-02.png">
+
+                            مشاهده پروژه
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>LUXURY PERFUME</h3>
+                        <p>Product Visualization / CGI</p>
+                        <p>Blender • Cycles</p>
+                    </div>
+                    
+                </div>
+                
+            </article>
+            
+            
+            <!-- Project 03 -->
+            
+            <article class="project-card"
+            data-category="product">
+            
+            <div class="project-image">
+                
+                <img
+                src="assets/thumbnail-project-03.png"
+                        alt="پروژه طراحی محصول">
+                        
+                        <div class="project-overlay">
+                            
+                            <span>03</span>
+                            
+                            <button
+                            class="view-project"
+                            data-title="Noir Watch"
+                            data-category="Product Visualization"
+                            data-image="assets/project-03.png">
+                            
+                            مشاهده پروژه
+                        </button>
+                        
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+                    
+                    <div>
+                        <h3>LUXURY PERFUME</h3>
+                        <p>Product Visualization / CGI</p>
+                        <p>Blender • Cycles</p>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 04 -->
+
+            <article class="project-card"
+                     data-category="product">
+
+                <div class="project-image">
+
+                    <img
+                        src="assets/thumbnail-project-04.jpg"
+                        alt="پروژه طراحی محصول">
+
+                    <div class="project-overlay">
+
+                        <span>04</span>
+
+                        <button
+                            class="view-project"
+                            data-title="Silent City"
+                            data-category="Concept Art"
+                            data-image="assets/project-04.jpg">
+
+                            مشاهده پروژه
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>TECH PRODUCT</h3>
+                        <p>Product Visualization / CGI</p>
+                        <p>Blender • Cycles</p>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 05 -->
+
+            <article class="project-card"
+                     data-category="product">
+
+                <div class="project-image">
+
+                    <img
+                        src="assets/thumbnail-project-05.jpg"
+                        alt="پروژه طراحی محصول">
+
+                    <div class="project-overlay">
+
+                        <span>05</span>
+
+                        <button
+                            class="view-project"
+                            data-title="Moon Valley"
+                            data-category="Environment Art"
+                            data-image="assets/project-05.jpg">
+
+                            مشاهده پروژه
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>TECH PRODUCT</h3>
+                        <p>Product Visualization / CGI</p>
+                        <p>Blender • Cycles</p>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Project 06 -->
+
+            <article class="project-card"
+                     data-category="environment">
+
+                <div class="project-image">
+
+                    <img
+                        src="assets/thumbnail-project-06.jpg"
+                        alt="پروژه طراحی محصول">
+
+                    <div class="project-overlay">
+
+                        <span>06</span>
+
+                        <button
+                            class="view-project"
+                            data-title="The Guardian"
+                            data-category="Character Design"
+                            data-image="assets/project-06.jpg">
+
+                            مشاهده پروژه
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>CINEMATIC RENDER</h3>
+                        <p>Visual / CGI</p>
+                        <p>Blender • Cycles</p>
+                    </div>
+
+                </div>
+
+            </article>
+            
+            <!-- Project 07 -->
+
+            <article class="project-card"
+                     data-category="environment">
+
+                <div class="project-image">
+
+                    <img
+                        src="assets/thumbnail-project-07.jpg"
+                        alt="پروژه طراحی مجیط">
+
+                    <div class="project-overlay">
+
+                        <span>0</span>
+
+                        <button
+                            class="view-project"
+                            data-title="The Guardian"
+                            data-category="Character Design"
+                            data-image="assets/project-07.jpg">
+
+                            مشاهده پروژه
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <h3>CINEMATIC RENDER</h3>
+                        <p>Visual / CGI</p>
+                        <p>Blender • Cycles</p>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     ABOUT
+========================= -->
+
+<section class="about section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-image">
+
+            <img
+                src="assets/profile.jpg"
+                alt="درباره هنرمند">
+
+            <div class="about-badge">
+                <span>CREATIVE</span>
+                <strong>3D</strong>
+                <span>ARTIST</span>
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <span class="about-me about-me-outline">
+                ABOUT ME
+            </span>
+
+            <div class="info-row">
+                
+                <div class="info-right">
+                    <h4>Skills / Services :
+                    </h4>
+                    
+                    <h4>
+                        • Product Modeling
+                    </h4>
+                    <h4>
+                        • Product Visualization
+                    </h4>
+                    <h4>
+                        • Materials & Texturing
+                    </h4>
+                    <h4>
+                        • Lighting & Rendering
+                    </h4>
+                    <h4>
+                        • Product Animation
+                    </h4>
+                    <h4>
+                        • CGI / Commercial Visuals
+                    </h4>    
+                    <h4>
+                        • Blender
+                    </h4>
+                    <h4>
+                        • Unreal Engine
+                    </h4>
+                </div>
+                    
+                    <div class="info-left">
+                        <p>
+                            3D Artist با تمرکز بر Product Visualization و CGI هستم.
+
+                            تخصص من در مدل‌سازی دقیق محصولات، متریال‌سازی، نورپردازی، رندرینگ و انیمیشن سه‌بعدی است و با استفاده از Blender، تصاویر و ویدئوهای واقع‌گرایانه و خلاقانه برای معرفی محصولات خلق می‌کنم.
+
+                            علاقه‌مند به همکاری در پروژه‌های تبلیغاتی، تجاری و Product Animation هستم و در کنار Blender، در حال توسعه مهارت‌هایم در Unreal Engine برای ورود به حوزه Real-time Visualization هستم.
+                        </p>
+                    </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SERVICES
+========================= -->
+
+<section class="services section" id="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="services-heading">
+
+                <h2>
+                    چه کاری
+                    <em>انجام می‌دهم؟</em>
+                </h2>
+
+            </div>
+
+            <p>
+                از ایده اولیه تا خروجی نهایی،
+                می‌توانم در بخش‌های مختلف فرآیند تولید سه‌بعدی همکاری کنم.
+            </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <article class="service-card">
+
+                <span class="service-number">01</span>
+
+                <div class="service-icon">
+                    ◇
+                </div>
+
+                <h3>3D Modeling</h3>
+
+                <p>
+                   • مدل‌سازی سه‌بعدی محصولات 
+                </p>
+                
+
+                <span class="service-arrow">↗</span>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <span class="service-number">02</span>
+
+                <div class="service-icon">
+                    ◈
+                </div>
+
+                <h3>Texturing</h3>
+
+                <p>
+                   • متریال‌سازی و تکسچرینگ 
+                </p>
+
+                <span class="service-arrow">↗</span>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <span class="service-number">03</span>
+
+                <div class="service-icon">
+                    ◉
+                </div>
+
+                <h3>Lighting & Render</h3>
+
+                <p>
+                    • ویژوال‌سازی و رندرینگ محصولات 
+                </p>
+                <p>
+                    • نورپردازی و طراحی صحنه  
+                </p>
+
+                <span class="service-arrow">↗</span>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <span class="service-number">04</span>
+
+                <div class="service-icon">
+                    ✦
+                </div>
+
+                <h3>3D Animation</h3>
+
+                <p>
+                   • انیمیشن و موشن سه‌بعدی
+                </p>
+                <p>
+                    • ساخت محتوای تبلیغاتی و تجاری
+                </p>
+                   
+                   <span class="service-arrow">↗</span>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     EXPERIENCE
+========================= -->
+
+<section class="experience section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <h2>
+                    مسیر
+                    <em>کاری من</em>
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <span class="timeline-year">
+                    2026 — Present
+                </span>
+
+                <div>
+
+                    <h3>Freelance 3D Artist</h3>
+
+                    <p>
+                        همکاری روی پروژه‌های شخصی، 
+                        مدل‌سازی و طراحی سه‌بعدی.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <span class="timeline-year">
+                    2025 — 2026
+                </span>
+
+                <div>
+
+                    <h3>Junior 3D Artist</h3>
+
+                    <p>
+                        کار روی مدل‌سازی، متریال، نورپردازی
+                        و آماده‌سازی Assetهای سه‌بعدی.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <span class="timeline-year">
+                    2024 — 2025
+                </span>
+
+                <div>
+
+                    <h3>Personal Projects</h3>
+
+                    <p>
+                        ساخت مجموعه‌ای از پروژه‌های شخصی برای
+                        یادگیری و توسعه مهارت‌های سه‌بعدی.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CTA
+========================= -->
+
+<section class="cta" id="contact">
+
+    <div class="container cta-content">
+
+        <div class="cta-text">
+
+            <span>
+                LET'S WORK TOGETHER
+            </span>
+
+            <h2>
+                بیایید با هم خلق کنیم
+                <br>
+                <em>برای همکاری در پروژه‌های سه‌بعدی، تبلیغاتی و تجاری آماده‌ام.</em>
+            </h2>
+
+            <p>
+                برای همکاری و پروژه‌های جدید، با من در ارتباط باشید:
+            </p>
+
+            <p>
+                Email: on.tina3d@email.com 📧
+            </p>
+
+            <div class="contact-buttons">
+
+                <a href="http://www.instagram.com/on.tina3d/"
+                   target="_blank"
+                   class="cta-button">
+                    📱 Instagram
+                    <span>↗</span>
+                </a>
+
+                <a href="https://behance.net/Tinagorji1991"
+                   target="_blank"
+                   class="cta-button">
+                    🔗 Behance
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <a href="#home" class="logo">
+                Tina<span>.</span>
+            </a>
+
+            <p>
+                3D Artist / PRODUCT VISUALIZATION • CGI
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#work">پروژه‌ها</a>
+            <a href="#about">درباره من</a>
+            <a href="#services">خدمات</a>
+            <a href="#contact">تماس</a>
+
+        </div>
+
+
+        <div class="social-links">
+
+            <a href="#" aria-label="ArtStation">AS</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">IN</a>
+            <a href="#" aria-label="Behance">BE</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <span>
+            © 2026 Tina. All Rights Reserved.
+        </span>
+
+        <span>
+            CRAFTED WITH CREATIVITY
+        </span>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================
+     PROJECT MODAL
+========================= -->
+
+<div class="modal" id="projectModal">
+
+    <div class="modal-content">
+
+        <button class="modal-close" id="modalClose">
+            ×
+        </button>
+
+        <img
+            id="modalImage"
+            src=""
+            alt=""
+        >
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
